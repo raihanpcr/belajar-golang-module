@@ -3,8 +3,8 @@
 // cara menambahkan module "go get nama-module"
 package gosayhello
 
-func SayHello() string {
-	return "Hello World"
+func SayHello(name string) string {
+	return "Hello " + name
 }
 
 //update module
